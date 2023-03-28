@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/haeser-footer-style.css">
+    <link rel="stylesheet" href="/css/index-style.css">
+    <title>Full-E-Commerce</title>
+</head>
+<body>
+<!------------------------------------ header ---------------------------------->
+    <header>
+        <div class="Top-Header">
+            <p>
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                <a href="#">ShopNow</a>
+            </p>
+            <div class="lang">
+                <p>English</p>
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </div>
+        </div>
+        <div class="Header">
+            <a href="#" class="logo">Exclusive</a>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Contact</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="Sing-up.html">Sign Up</a> </li>
+            </ul>
+            <div class="option">
+                <div class="search">
+                    <input type="search" name="search" id=""  placeholder="What are you looking for?">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </div>
+                <span class="material-symbols-outlined favorite">
+                    favorite
+                </span>
+                <span class="material-symbols-outlined shopping_cart">
+                    shopping_cart
+                </span>
+                <span class="material-symbols-outlined">person</span>
+            </div>
+        </div>
+    </header>
+<!--------------------------------- catigorys and slader ---------------------------->
+    <div class="hero">
+        <div class="catigory">
+            <div class="catigory-items">
+                <div>
+                    <p>Woman’s Fashion</p>
+                    <span class="material-symbols-outlined" onclick="clike ()">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+            <div  class="catigory-items">
+                <div>
+                    <p>Men’s Fashion</p>
+                    <span class="material-symbols-outlined" onclick="clike ()">
+                    expand_more
+                    </span>
+                </div>
+                <div class="dropliste">
+                    <ul >
+                        <li> <a href="#">Electronics</a> </li>
+                        <li> <a href="#"> Home & Lifestyle </a> </li>
+                        <li> <a href="#"> Medicine </a> </li>
+                        <li> <a href="#"> Sports & Outdoor </a> </li>
+                        <li> <a href="#"> Baby’s & Toys </a> </li>
+                        <li> <a href="#"> Groceries & Pets</a> </li>
+                        <li> <a href="#"> Health & Beauty </a> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="slader">
+            <div class="imgs-continer">
+                <div class="offers">
+                    <p>
+                        <img src="/icons/1200px-Apple_gray_logo 1.png" alt="">
+                        iPhone 14 Series
+                    </p>
+                    <h2>
+                        Up to 10% off Voucher
+                    </h2>
+                    <a href="#">
+                        Shop Now
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+                <div class="product-img">
+                    <img src="/imgs/hero_endframe__cvklg0xk3w6e_large 2.png" alt="">
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+<!------------------------------------- Flash Sales -------------------------------->
+    <div class="Flash-Sales">
+        <div class="header-flash-sales">
+            <div class="head-flash-sales">
+                <div class="scouir"></div>
+                <p>Today’s</p>
+            </div>
+            <div class="frame-contre">
+                <div class="content-dwon">
+                    <h2>Flash Sales</h2>
+                    <p id="demo"></p>
+                    <script>
+                        // Set the date we're counting down to
+                        let countDownDate = new Date("march 27, 2024 15:37:25").getTime();
+                        // Update the count down every 1 second
+                        let x = setInterval(function() {
+                            // Get today's date and time
+                            let now = new Date().getTime();                           
+                            // Find the distance between now and the count down date
+                            let distance = countDownDate - now;                           
+                            // Time calculations for days, hours, minutes and seconds
+                            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+                                
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                    </script>
+                </div>
+                <div class="controles">
+                    <img src="/icons/icons_arrow-left.svg" alt="">
+                    <img src="/icons/icons arrow-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="products-flash-sales">
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="View-All-Products-flash-sales">
+        <button class="button-view-all">View All Products</button>
+    </div>
+    <hr>
+    <!----------------------------- Categories ------------------------------->
+    <div class="Categories">
+        <div class="head">
+            <div class="scouir"></div>
+            <p> Categories</p>
+        </div>
+        <div class="tetle">
+            <h2>Browse By Category</h2>
+            <div  class="controles">
+                <img src="/icons/icons_arrow-left.svg" alt="">
+                <img src="/icons/icons arrow-right.svg" alt="">
+            </div>
+        </div>
+        <div class="Categories-items" >
+            <div class="Categorie-item">
+                <img src="/icons/Category-CellPhone.svg" alt="">
+                <p>Phones</p>
+            </div>
+            <div  class="Categorie-item">
+                <img src="/icons/Category-Computer.svg" alt="">
+                <p>Computers</p>
+            </div>
+            <div  class="Categorie-item">
+                <img src="/icons/Category-SmartWatch.svg" alt="">
+                <p>SmartWatch</p>
+            </div>
+            <div  class="Categorie-item activ">
+                <img src="/icons/Category-Camera.svg" alt="">
+                <p>Camera</p>
+            </div>
+            <div  class="Categorie-item">
+                <img src="/icons/Category-Headphone.svg" alt="">
+                <p>HeadPhones</p>
+            </div>
+            <div  class="Categorie-item">
+                <img src="/icons/Category-Gamepad.svg" alt="">
+                <p>Gaming</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!----------------------------- Best Selling Products ------------------------->
+    <div class="frame-Best-Selling-Products">
+        <div class="head">
+            <div class="scouir"></div>
+            <p> Best Selling Products</p>
+        </div>
+        <div class="tetle">
+            <h2>Browse By Category</h2>
+            <div  class="controles">
+                <a href="#"> View All </a>
+            </div>
+        </div>
+        <div class="Best-Selling-Products">
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------- special Offers ---------------------------------->
+    
+    <div class="special-Offers">
+        <div class="details-offer">
+            <p>Categories</p>
+            <h2>Enhance Your Music Experience</h2>
+            <div class="offer-timer">
+                <div class="time-offer">
+                    <span>23</span>
+                    <p>Hours</p>
+                </div>
+                <div class="time-offer">
+                    <span>05</span>
+                    <p>Days</p>
+                </div>
+                <div class="time-offer">
+                    <span>59</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="time-offer">
+                    <span>35</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            <button>Buy Now!</button>
+        </div>
+        <div class="img-product">
+            <img src="/imgs/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="">
+        </div>
+    </div>
+    <!-------------------------------- Explore Our Products ------------------->
+    <div class="Explore-Our-Products">
+        <div class="head">
+            <div class="scouir"></div>
+            <p> Our Products</p>
+        </div>
+        <div class="tetle">          
+            <h2>Explore Our Products</h2>
+            <div  class="controles">
+                <img src="/icons/icons_arrow-left.svg" alt="">
+                <img src="/icons/icons arrow-right.svg" alt="">
+            </div>
+        </div>
+        <div class="products">
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-falsh-sales">
+                    <img src="imgs/Frame 611.png" alt="">
+                    <div class="product-option">
+                        
+                        <img src="/icons/Fill Heart.svg" alt="">
+                        <img src="/icons/Fill Eye.svg" alt="">
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+                <h4>HAVIT HV-G92 Gamepad</h4>
+                <div class="priec">
+                    <span class="flash-priec">120$</span>
+                    <span class="officile-priec">160$</span>
+                </div>
+                <div class="reting">
+                    <div class="reting-stars">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                        <img src="/icons/stars.svg" alt="">
+                    </div>
+                    <p>(88)</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="View-All-Products">
+            <button>View All Products</button>
+        </div>
+    </div>
+    <!-------------------------------- New Arrival ------------------------------->
+    <div class="New-Arrival-head">
+        <div class="head">
+            <div class="scouir"></div>
+            <p> Featured</p>
+        </div>
+        <div class="tetle">
+            <h2>New Arrival</h2>
+        </div>
+    </div>
+    <div class="New-Arrival">
+        
+        <div class="relative">
+            <img src="/imgs/ps5-slim-goedkope-playstation_large 1.png" alt="">
+            <div class="deteails">
+                <h5>PlayStation 5</h5>
+                <p>Black and White version of the PS5 coming out on sale.</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="Collections">
+            <div class="relative">
+                <img src="/imgs/attractive-woman-wearing-hat-posing-black-background 1.png" alt="">
+                <div class="deteails">
+                    <h5>Women’s Collections</h5>
+                    <p>Featured woman collections that give you another vibe.</p>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="New-Arrival-product">
+                <div class="relative">
+                    <img src="/imgs/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png" alt="">
+                    <div class="deteails">
+                        <h5>Speakers</h5>
+                        <p>Amazon wireless speakers</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="/imgs/652e82cd70aa6522dd785109a455904c.png" alt="">
+                    <div class="deteails">
+                        <h5>Perfume</h5>
+                        <p>GUCCI INTENSE OUD EDP</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!------------------------------- guarantee ------------------------------>
+    <div class="guarantee">
+        <div class="Services">
+            <img src="/icons/Services.png" alt="">
+            <h3>FREE AND FAST DELIVERY</h3>
+            <p>Free delivery for all orders over $140</p>
+        </div>
+        <div class="Services">
+            <img src="/icons/Services (1).png" alt="">
+            <h3>24/7 CUSTOMER SERVICE</h3>
+            <p>Friendly 24/7 customer support</p>
+        </div>
+        <div class="Services">
+            <img src="/icons/Services (2).png" alt="">
+            <h3>MONEY BACK GUARANTEE</h3>
+            <p>We reurn money within 30 days</p>
+        </div>
+    </div>
+
+<!----------------------------------- footter --------------------------------->
+    <footer>
+        <div class="footer-items">
+            <a href="#" class="footer-logo">Exclusive</a>
+            <a href="#">Subscribe</a>
+            <p> Get 10% off your first order</p>
+            <div class="email-space">
+                <input type="email" name="" id="" placeholder="Enter your email" class="email">
+                <span class="material-symbols-outlined send">send</span>
+            </div>
+        </div>
+        <div class="footer-items">
+            <h4>Support</h4>
+            <p>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</p>
+            <p>exclusive@gmail.com</p>
+            <p>+88015-88888-9999</p>
+        </div>
+        <div class="footer-items">
+            <h4>Account</h4>
+            <a href="#">My Account</a>
+            <a href="#">Login / Register</a>           
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Wishlist</a>
+        </div>
+        <div class="footer-items">
+            <h4>Quick Link</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+        </div>
+        <div  class="footer-items">
+            <h4>Download App</h4>
+            <img src="/imgs/Frame 720.png" alt="">
+            <div class="socel-media">
+                <img src="/icons/Icon-Facebook.svg" alt="">
+                <img src="/icons/Icon-Twitter.svg" alt="">
+                <img src="/icons/Vector.svg" alt="">
+                <img src="/icons/Group.svg" alt="">
+            
+            </div>
+        </div>
+        
+    </footer>
+    <div class="copyright">
+        <img src="/icons/icon-copyright.png" alt="">
+        <p>Copyright Rimel 2022. All right reserved</p>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>

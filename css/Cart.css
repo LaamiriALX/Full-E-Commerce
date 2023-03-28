@@ -1,0 +1,156 @@
+.Cart-frame{
+    width: 80%;
+    margin: 60px auto;
+}
+.Cart-frame h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+color: #cdcdcd;
+}
+.Cart-frame h5 span{
+    color: #000000;
+}
+.head{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px  26px -6px  #adadad;
+    padding: 24px 34px;
+}
+.Cart-product{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px  26px -6px  #adadad;
+    padding: 24px 34px;
+}
+.Product{
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Product h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.Product:hover .icon-cancel{
+    display: block;
+}
+.Product-img{
+    height: 42px;
+    width: 48px;
+    border-radius: 0px;
+}
+.icon-cancel{
+    cursor: pointer;
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Price , .Subtotal{
+    width: 20%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.Quantity {
+    border: 1px solid #cdcdcd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.controlers{
+    display: flex;
+    flex-direction: column;
+    gap: 4px ;
+    justify-content: center;
+}
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 20%;
+    padding: 13px 0;
+    border: #adadad 1px solid;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Coupon-Code-and-Cart-Total{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.Coupon-Code-and-Cart-Total button{
+    width: 50%;
+    background-color: #DB4444;
+    border: none;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+.Coupon-Code{
+    width: 40%;
+    display: flex;
+    height: 45px;
+    gap: 20px;
+}
+.Coupon-Code input{
+    width: 50%;
+    padding-left: 7px;
+    border: #adadad 1px solid ;
+    border-radius: 5px;
+}
+.Cart-Total{
+    width: 45%;
+    border: #0a0a0a 1px solid ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+.Cart-Total h5{
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.Cart-Total div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    width: 100%;
+}
+.Cart-Total button{
+    
+}

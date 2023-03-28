@@ -1,0 +1,70 @@
+.Wishlist-frame{
+    width: 80%;
+    margin: 50px auto ;
+}
+.Wishlist-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Wishlist-head h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.Move-All-To-Bag{
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border: 1px #cfcdcf solid;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.Wishlist-product{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+
+/* -----------------------Just-For-You-frame ----------------------*/
+.Just-For-You-frame{
+    width: 80%;
+    margin: 50px auto ;
+}
+.Just-For-You-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Just-For-You-head div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Just-For-You-head div h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.See-All{
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border: 1px #cfcdcf solid;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.Just-For-You-product{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
