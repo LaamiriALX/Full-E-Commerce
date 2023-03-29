@@ -1,0 +1,54 @@
+.Account-head{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Account-head p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.section{
+
+    color: #b5b1b1;
+}
+.section span{
+    color: black;
+}
+.hello-message{
+
+}
+.clinte-name{
+    color: #DB4444;
+}
+
+/* --------------- Account-seting ------------*/
+.Account-frame{
+    width: 80%;
+    margin: 30px auto;
+}
+.Account-seting{
+    width: 16%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.Account-seting ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.active{
+    color: #DB4444 !important;
+}
+.Account-seting ul li{
+    font-weight: 400;
+    color: #b5b1b1;
+}
+
+
