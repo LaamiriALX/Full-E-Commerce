@@ -36,6 +36,9 @@ header{
     gap: 7px;
     align-items: center;
 } 
+.lang p{
+    cursor: pointer;
+}
 .Header{
     display: flex;
     width: 80%;
