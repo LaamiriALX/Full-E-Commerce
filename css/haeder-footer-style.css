@@ -77,8 +77,8 @@ header{
     align-items: center;
     gap: 13px;
 }
-.option span{
-    cursor: pointer;
+.option a{
+    color: #000;
 }
 .search{
     padding: 7px 12px 7px 12px ;
