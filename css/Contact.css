@@ -1,0 +1,101 @@
+.contact-frame{
+    width: 80%;
+    margin: 60px auto;
+}
+.Page-path{
+    margin: 30px auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #b5b1b1;
+}
+.Page-path span{
+    color: #000000;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Contact-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    gap: 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.head h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-US{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.contact-US p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.contact-formuel{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 20px;
+}
+.customer-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-information input{
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+#Your-Massage{
+    width: 100%;
+    height: 200px;
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+#Your-Massage::placeholder{
+    display: flex;
+    align-items: flex-start;
+}
+.Send-Massage{
+    align-self: self-end;
+    width: 30%;
+    height: 36px;
+    background: #DB4444;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
