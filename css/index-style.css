@@ -524,30 +524,3 @@ color: #000000;
     background-color: #000;
     padding: 20px;
 }
-/* ---------------------------guarantee ------------------------ */
-.guarantee{
-    width: 80%;
-    margin: 80px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.Services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.Services h3{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-}
-.Services p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-}

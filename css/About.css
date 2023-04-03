@@ -1,0 +1,121 @@
+.Page-path{
+    margin: 30px 0 0 10%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #b5b1b1;
+}
+/*------------------------------------ Our Story ----------------------------------*/
+
+.Page-path span{
+    color: #000000;
+}
+.Our-Story{
+    width: 90%;
+    margin: 30px 0 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Story-telling{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Story-telling h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 0.06em;
+}
+.Story{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.Story-img{
+    width: 47%;
+}
+.Story-img img{
+    width: 100%;
+}
+/*------------------------------------ Serveses ----------------------------------*/
+
+
+.Serveses{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    gap: 30px;
+}
+.serves{
+    width: 23% ;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+.serves span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.active{
+    background: #DB4444;
+    color: #FFFFFF;
+}
+/*----------------------------------- team work --------------------------------- */
+.Team-work{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.member{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+.member-imag img{
+    width: 100%;
+}
+
+.member-info{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.member-info h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;    
+    letter-spacing: 0.04em;
+}
+.member-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sociel-media{
+    display: flex;
+    gap: 9px;
+}
+.controls{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
