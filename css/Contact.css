@@ -81,6 +81,7 @@
     outline: none;
     background: #F5F5F5;
     border-radius: 4px;
+    padding-left: 8px;
 }
 #Your-Massage::placeholder{
     display: flex;
