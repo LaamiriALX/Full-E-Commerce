@@ -1,0 +1,11 @@
+.Page-path{
+    margin: 30px 10% auto;
+    color: #b5b1b1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.Page-path span{
+    color: black;
+}

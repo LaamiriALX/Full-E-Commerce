@@ -33,6 +33,7 @@
 .dropliste ul li a{
     width: 100%;
     color: #000;
+    padding-left: 10px;
 }
 .dropliste ul li a:hover{
     background-color: #b5b1b1;
@@ -442,7 +443,7 @@ color: #000000;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 55px;
+    justify-content: space-between;
 }
 .products .product{
     width: 21%;
@@ -475,7 +476,7 @@ color: #000000;
     width: 80%;
     margin: 40px auto;
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
 }
 .deteails{
     display: flex;
@@ -511,15 +512,24 @@ color: #000000;
 }
 .New-Arrival-product{
     display: flex;
-    gap: 41px;
+    justify-content: space-between;
+
 }
 .Collections{
     display: flex;
+    width: 48%;
     flex-direction: column;
     gap: 15px;
 
 }
+.relative1{
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    padding: 20px;
+}
 .relative{
+    width: 49%;
     position: relative;
     background-color: #000;
     padding: 20px;
